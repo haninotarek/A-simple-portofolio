@@ -1,0 +1,395 @@
+{
+    "portfolio": {
+        "metadata": {
+            "title": "Portfolio",
+            "author": "Hanin Tarek",
+            "description": "Creative Developer Portfolio - Turning Creativity Into Impactful Creations",
+            "template": "TemplateMo 593 personal shape",
+            "templateUrl": "https://templatemo.com/tm-593-personal-shape"
+        },
+        "navigation": {
+            "logo": "Hanin Tarek",
+            "navLinks": [
+                {
+                    "href": "#home",
+                    "text": "Home"
+                },
+                {
+                    "href": "#about",
+                    "text": "About"
+                },
+                {
+                    "href": "#portfolio",
+                    "text": "Portfolio"
+                },
+                {
+                    "href": "#contact",
+                    "text": "Contact"
+                }
+            ],
+            "mobileMenu": {
+                "enabled": true,
+                "animation": "slide-in from right",
+                "backdropFilter": "blur(20px)"
+            }
+        },
+        "hero": {
+            "subtitle": "Creative Developer",
+            "title": "Turning Creativity Into Impactful Creations",
+            "description": "I bring ideas to life with code and design, blending innovation and passion to deliver experiences that connect, inspire, and make a difference",
+            "ctaButton": {
+                "text": "Explore My Work",
+                "href": "#portfolio"
+            },
+            "background": {
+                "gradient": "linear-gradient(142deg, rgba(191, 77, 119, 1) 16%, rgba(183, 111, 242, 1) 89%, rgba(212, 129, 129, 1) 100%)",
+                "floatingShapes": 6,
+                "gridPattern": true,
+                "radialGradients": true
+            },
+            "scrollIndicator": {
+                "enabled": true,
+                "animation": "scroll 2s infinite"
+            }
+        },
+        "about": {
+            "title": "About Me",
+            "image": {
+                "src": "images/me.jpg",
+                "alt": "Hanin Tarek",
+                "effects": [
+                    "rotate(-1deg)",
+                    "hover scale",
+                    "gradient overlay"
+                ]
+            },
+            "content": {
+                "heading": "I'm a Full Stack Developer passionate about creating complete, high-quality web applications.",
+                "paragraphs": [
+                    "I work across both front-end and back-end, ensuring every project is responsive, functional, and optimized for performance.On the front-end, I build clean, accessible, and user-friendly interfaces using modern frameworks and best practices. On the back-end, I design secure, scalable systems that handle data efficiently and integrate seamlessly with the front-end..",
+                    "I see every project as a chance to solve problems, innovate, and create meaningful connections through design and code."
+                ]
+            },
+            "skills": [
+                "Front-End Development",
+                "HTML5 & CSS3",
+                "JavaScript (ES6+)",
+                "React.js",
+                "SQL"
+            ]
+        },
+        "portfolio": {
+            "title": "Featured Work",
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Robot-Game",
+                    "description": "A simple photo that represent my fake work on this web site .",
+                    "image": "images/1.jpg",
+                    "technologies": [
+                        "React",
+                        "Node.js",
+                        "MongoDB",
+                        "JavaScript"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Fake photo",
+                    "description": "Complete visual identity redesign for a tech startup, including logo.",
+                    "image": "images/2.jpg",
+                    "technologies": [
+                        "JavaScript",
+                        "Photoshop",
+                        "Figma"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Disney-Carton",
+                    "description": "carton web site that shows fake films.",
+                    "image": "images/3.jpg",
+                    "technologies": [
+                        "Figma",
+                        "html",
+                        "React Native",
+                        "React.js"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Dashboard Interface",
+                    "description": "Clean and functional dashboard design for data analytics platform with complex information architecture and real-time data visualization.",
+                    "image": "images/4.jpg",
+                    "technologies": [
+                        "Vue.js",
+                        "D3.js",
+                        "SCSS",
+                        "Chart.js"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title": "Login-Page",
+                    "description": "A simple login page with a colorful design .",
+                    "image": "images/5.jpg",
+                    "technologies": [
+                        "Next.js",
+                        "Framer Motion",
+                        "Tailwind CSS",
+                        "Vercel"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title": "Creative Portfolio",
+                    "description": "Artistic portfolio website featuring immersive galleries, smooth transitions, and creative storytelling for a digital artist.",
+                    "image": "images/6.jpg",
+                    "technologies": [
+                        "React",
+                        "Three.js",
+                        "GSAP",
+                        "WebGL"
+                    ]
+                }
+            ],
+            "gridLayout": {
+                "desktop": "3 columns",
+                "tablet": "2 columns",
+                "mobile": "1 column"
+            }
+        },
+        "contact": {
+            "title": "Let's Work Together",
+            "description": "Ready to bring your vision to life? Let's discuss how we can create something amazing together. I'm always excited to take on new challenges and collaborate on innovative projects.",
+            "background": {
+                "gradient": "linear-gradient(142deg, rgba(191, 77, 119, 1) 16%, rgba(183, 111, 242, 1) 89%, rgba(212, 129, 129, 1) 100%)",
+                "floatingShapes": 6,
+                "gridPattern": true
+            },
+            "form": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "text",
+                        "label": "Name",
+                        "placeholder": "Your full name",
+                        "required": true
+                    },
+                    {
+                        "name": "email",
+                        "type": "email",
+                        "label": "Email",
+                        "placeholder": "your.email@example.com",
+                        "required": true
+                    },
+                    {
+                        "name": "subject",
+                        "type": "text",
+                        "label": "Subject",
+                        "placeholder": "What's this about?",
+                        "required": true
+                    },
+                    {
+                        "name": "message",
+                        "type": "textarea",
+                        "label": "Message",
+                        "placeholder": "Tell me about your project...",
+                        "rows": 6,
+                        "required": true
+                    }
+                ],
+                "submitButton": {
+                    "text": "Send Message",
+                    "loadingText": "Sending...",
+                    "successText": "Message Sent! ✓"
+                }
+            }
+        },
+        "footer": {
+            "copyright": "© 2025 Personal Shape. All rights reserved.",
+            "links": [
+                {
+                    "href": "#privacy",
+                    "text": "Privacy Policy"
+                },
+                {
+                    "href": "#terms",
+                    "text": "Terms of Use"
+                },
+                {
+                    "href": "#sitemap",
+                    "text": "Sitemap"
+                },
+                {
+                    "href": "https://templatemo.com",
+                    "text": "Provided by TemplateMo",
+                    "external": true
+                }
+            ],
+            "background": {
+                "gradient": "linear-gradient(142deg, rgb(115, 48, 170) 89%)",
+                "gridPattern": true
+            }
+        }
+    },
+    "styling": {
+        "colorScheme": {
+            "primary": "#6366f1",
+            "secondary": "#8b5cf6",
+            "accent": "#f59e0b",
+            "accentPink": "#ec4899",
+            "accentCyan": "#06b6d4",
+            "textPrimary": "#0f172a",
+            "textSecondary": "#64748b",
+            "textLight": "#ffffff",
+            "bgPrimary": "#ffffff",
+            "bgSecondary": "#f8fafc",
+            "bgDark": "#0f172a",
+            "bgCard": "rgba(255, 255, 255, 0.95)"
+        },
+        "gradients": {
+            "primary": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            "secondary": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+            "tertiary": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+            "elegant": "linear-gradient(142deg, rgba(191, 77, 119, 1) 16%, rgba(183, 111, 242, 1) 89%, rgba(212, 129, 129, 1) 100%)"
+        },
+        "shadows": {
+            "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+            "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+            "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+            "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+            "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
+        },
+        "typography": {
+            "fontFamily": "\"Segoe UI\", \"Roboto\", \"Helvetica Neue\", \"Arial\", sans-serif",
+            "lineHeight": 1.7,
+            "fontSizes": {
+                "heroTitle": "5rem",
+                "sectionTitle": "3.5rem",
+                "aboutHeading": "2.5rem",
+                "portfolioTitle": "1.5rem",
+                "body": "1.1rem",
+                "small": "0.9rem"
+            }
+        },
+        "spacing": {
+            "sectionPadding": "8rem 0",
+            "containerMaxWidth": "1400px",
+            "containerPadding": "0 2rem",
+            "gridGap": "3rem"
+        },
+        "borderRadius": {
+            "small": "15px",
+            "medium": "25px",
+            "large": "30px",
+            "full": "50px"
+        },
+        "animations": {
+            "fadeInUp": {
+                "duration": "1s",
+                "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+                "delay": "0.2s"
+            },
+            "slideIn": {
+                "duration": "0.8s",
+                "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+            },
+            "float": {
+                "duration": "25s",
+                "easing": "ease-in-out",
+                "iteration": "infinite"
+            }
+        }
+    },
+    "functionality": {
+        "mobileMenu": {
+            "toggle": "hamburger animation",
+            "overlay": "full screen with backdrop blur",
+            "closeOnLinkClick": true,
+            "closeOnOutsideClick": true,
+            "closeOnEscape": true
+        },
+        "scrollEffects": {
+            "navbarScroll": "background opacity change on scroll > 50px",
+            "parallax": "hero background parallax effect",
+            "smoothScrolling": "navigation links with offset"
+        },
+        "animations": {
+            "intersectionObserver": {
+                "threshold": 0.15,
+                "rootMargin": "0px 0px -80px 0px"
+            },
+            "portfolioStagger": {
+                "delay": "150ms between items",
+                "threshold": 0.1
+            }
+        },
+        "formHandling": {
+            "preventDefault": true,
+            "loadingState": "Sending...",
+            "successState": "Message Sent! ✓",
+            "resetAfterSuccess": true,
+            "simulationDelay": "2000ms"
+        },
+        "interactions": {
+            "skillTagHover": "translateY(-2px) scale(1.05)",
+            "portfolioItemHover": "translateY(-15px) with shadow increase",
+            "buttonHover": "scale(1.05) with shadow",
+            "rippleEffect": "on button click"
+        }
+    },
+    "responsive": {
+        "breakpoints": {
+            "desktop": "1024px+",
+            "tablet": "768px - 1023px",
+            "mobile": "480px - 767px",
+            "smallMobile": "0px - 479px"
+        },
+        "adaptations": {
+            "navigation": {
+                "desktop": "horizontal menu",
+                "mobile": "hamburger menu"
+            },
+            "portfolio": {
+                "desktop": "3 columns",
+                "tablet": "2 columns",
+                "mobile": "1 column"
+            },
+            "about": {
+                "desktop": "grid 1fr 1.5fr",
+                "mobile": "single column"
+            },
+            "contact": {
+                "desktop": "2 column form layout",
+                "mobile": "single column form layout"
+            }
+        }
+    },
+    "assets": {
+        "images": [
+            "images/me.jpg",
+            "images/1.jpg",
+            "images/2.jpg",
+            "images/3.jpg",
+            "images/4.jpg",
+            "images/5.jpg",
+            "images/6.jpg"
+        ],
+        "css": "css/style.css",
+        "javascript": "js/script.js"
+    },
+    "performance": {
+        "optimizations": {
+            "smoothScrolling": true,
+            "intersectionObserver": true,
+            "requestAnimationFrame": true,
+            "backdropFilter": true
+        },
+        "animations": {
+            "hardwareAccelerated": true,
+            "transform3d": true,
+            "willChange": "auto"
+        }
+    }
+}
